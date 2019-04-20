@@ -1,6 +1,6 @@
 <?php
-use \Eluceo\iCal\Component\Event as Event;
-use \Eluceo\iCal\Property\Event\RecurrenceRule as RecurrenceRule;
+use \Eluceo\iCal\Component\Event;
+use \Eluceo\iCal\Property\Event\RecurrenceRule;
 
 function createEvent($summary, $dtStart, $dtEnd)
 {
